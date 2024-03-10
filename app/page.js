@@ -9,7 +9,7 @@ export default function Home() {
           <h1>Compare Shopping</h1>
         </div>
       </nav>
-      <main className='flex gap-2 text-white'>
+      <main className='flex gap-2 justify-between w-full text-white'>
         {/* sidebar */}
         <nav className='border border-purple-500 rounded-md p-2 w-1/6 min-h-full'>
           <ul>
@@ -18,7 +18,9 @@ export default function Home() {
             <li>tienda 3</li>
           </ul>
         </nav>
+        {/* sidebar */}
         <section>section</section>
+        <section>extra</section>
       </main>
     </div>
   );
